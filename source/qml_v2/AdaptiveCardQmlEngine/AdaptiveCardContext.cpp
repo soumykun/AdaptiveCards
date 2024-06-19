@@ -65,7 +65,7 @@ namespace AdaptiveCardQmlEngine
             colorConfig = mRenderArgs.GetForegroundColors().attention;
             break;
         case AdaptiveCards::ForegroundColor::Dark:
-            colorConfig = mRenderArgs.GetForegroundColors().attention;
+            colorConfig = mRenderArgs.GetForegroundColors().dark;
             break;
         case AdaptiveCards::ForegroundColor::Light:
             colorConfig = mRenderArgs.GetForegroundColors().light;
